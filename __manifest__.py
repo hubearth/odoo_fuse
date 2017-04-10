@@ -9,7 +9,7 @@
  ],    
  'application': True,
  'data': [
-     'views/fuse_disableling.xml',
-     'security/disableling_security.xml'     
+     'security/disableling_security.xml',
+     'views/fuse_disableling.xml'    
  ], 
 }
