@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Cacher le menuitem "Discuter" !-->
+    <record id="fuse.group_disablemenuitems" model="res.groups">
+        <field name="name">Disable menu items</field>
+        <field name="category_id" ref="base.module_category_project_management"/>
+    </record>
+    
+</odoo>

@@ -1,0 +1,13 @@
+
+<odoo>
+    <data>
+	    <menuitem
+	        id="mail.mail_channel_menu_root_chat"
+	        name="Discuss"
+	        action="mail_channel_action_client_chat"
+	        web_icon="mail,static/description/icon.png"
+	        groups="fuse.group_disablemenuitems"
+	        sequence="1"/>
+
+    </data>
+</odoo>
