@@ -2,6 +2,6 @@
 from odoo import models
 
 class Fuse(models.Model):
-    _name = 'fuse'
+    _name = 'fuse.fuse'
 
     
