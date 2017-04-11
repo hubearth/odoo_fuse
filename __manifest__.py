@@ -9,8 +9,8 @@
  ],    
  'application': True,
  'data': [
-     'security/project.security.access.csv',
      'security/disableling_security.xml',
+     'security/project.security.access.csv',
      'views/fuse_disableling.xml'    
  ], 
 }
