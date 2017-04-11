@@ -4,7 +4,7 @@
 	    <menuitem
 	        id="mail.mail_channel_menu_root_chat"
 	        name="Discuss"
-	        groups="fuse.group_disablemenuitems"
+	        groups="group_disablemenuitems"
 	        sequence="1"/>
 
     </data>
