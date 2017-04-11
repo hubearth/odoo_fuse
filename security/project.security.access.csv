@@ -1,5 +1,5 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_account_analytic_account_user,account.analytic.account,analytic.model_account_analytic_account,project.group_project_user,1,1,1,0
+access_account_analytic_account_user,account.analytic.account,analytic.model_account_analytic_account,project.group_project_user,1,1,1,1
 access_account_analytic_account_manager,account.analytic.account,analytic.model_account_analytic_account,project.group_project_manager,1,1,1,1
 access_account_analytic_line_project,account.analytic.line project,analytic.model_account_analytic_line,project.group_project_manager,1,1,1,1
 access_partner_task user,base.res.partner user,base.model_res_partner,project.group_project_user,1,0,0,0
