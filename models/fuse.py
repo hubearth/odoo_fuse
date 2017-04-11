@@ -3,6 +3,5 @@ from odoo import models
 
 class Fuse(models.Model):
     _name = 'fuse.fuse'
-    _inherit = 'model.project.project'
 
     
