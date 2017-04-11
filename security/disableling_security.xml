@@ -4,7 +4,7 @@
     <!-- Cacher le menuitem "Discuter" !-->
     <record id="group_disablemenuitems" model="res.groups">
         <field name="name">Disable menu items</field>
-        <field name="category_id" ref="mail.mail_channel_menu_root_chat"/>
+        <field name="category_id" ref="mail.mail_channel"/>
     </record>
 
 </odoo>
