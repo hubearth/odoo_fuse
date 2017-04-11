@@ -10,7 +10,7 @@
  'application': True,
  'data': [
      'security/disableling_security.xml',
-     'security/project.security.access.csv',
+     'security/ir.model.access.csv',
      'views/fuse_disableling.xml'    
  ], 
 }
