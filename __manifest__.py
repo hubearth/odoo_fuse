@@ -5,7 +5,9 @@
  'depends': [
      'base',
      'project',
-     'mail'
+     'mail',
+     'calendar',
+     'web_calendar'
  ],    
  'application': True,
  'data': [
