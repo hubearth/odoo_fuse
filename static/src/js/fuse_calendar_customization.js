@@ -4,7 +4,8 @@ odoo.define('fuse_calendar_customization.fuse_calendar_customization', function 
 //var widgets = require('calendar.widgets');
 var calendar = require('base_calendar.base_calendar');
 
-calendar.widgets.SidebarFilter._add_filter(-1, _lt("Everybody's calendars"), true, false);
+//calendar.widgets.SidebarFilter._add_filter(-1, _lt("Everybody's calendars"), true, false);
+calendar.widgets.SidebarFilter._add_filter(654, _lt("crotte de boeuf"), true, false);
 
 // Extend widget
 /*widgets.SidebarFilter.include({
