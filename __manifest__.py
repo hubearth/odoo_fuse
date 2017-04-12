@@ -11,6 +11,7 @@
  'data': [
      'security/disableling_security.xml',
      'security/ir.model.access.csv',
-     'views/fuse_disableling.xml'    
+     'views/fuse_disableling.xml',
+     'views/fuse_calendar_customization.xml'    
  ], 
 }
