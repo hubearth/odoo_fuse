@@ -13,5 +13,5 @@ widgets.SidebarFilter.include({
 		self._add_filter(-1, _lt("Everybody's calendars"), true, false);
 	},
 });
-}
+});
 
