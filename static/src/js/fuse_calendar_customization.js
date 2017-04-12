@@ -1,10 +1,13 @@
 odoo.define('fuse_calendar_customization.fuse_calendar_customization', function (require){
 "use strict";
 // require original module JS
-var widgets = require('calendar.widgets');
+//var widgets = require('calendar.widgets');
+var calendar = require('base_calendar.base_calendar');
+
+calendar.widgets.SidebarFilter._add_filter(-1, _lt("Everybody's calendars"), true, false);
 
 // Extend widget
-widgets.SidebarFilter.include({
+/*widgets.SidebarFilter.include({
 	load_favorite_list: function () {
         var self = this;
         // Untick sidebar's filters if there is an active partner in the context
@@ -30,8 +33,8 @@ widgets.SidebarFilter.include({
                 });
         });
 	},
-});
-//widgets.SidebarFilter._add_filter(-1, _lt("Everybody's calendars"), true, false);
+});*/
+
 	
 
 });
