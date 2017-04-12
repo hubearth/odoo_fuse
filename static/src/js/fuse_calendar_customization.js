@@ -5,10 +5,10 @@ odoo.define('fuse_calendar_customization.fuse_calendar_customization', function 
 var calendar = require('base_calendar.base_calendar');
 
 //calendar.widgets.SidebarFilter._add_filter(-1, _lt("Everybody's calendars"), true, false);
-calendar.widgets.SidebarFilter._add_filter(654, _lt("crotte de boeuf"), true, false);
+//calendar.widgets.SidebarFilter._add_filter(654, _lt("crotte de boeuf"), true, false);
 
 // Extend widget
-/*widgets.SidebarFilter.include({
+calendar.widgets.SidebarFilter.include({
 	load_favorite_list: function () {
         var self = this;
         // Untick sidebar's filters if there is an active partner in the context
@@ -34,7 +34,7 @@ calendar.widgets.SidebarFilter._add_filter(654, _lt("crotte de boeuf"), true, fa
                 });
         });
 	},
-});*/
+});
 
 	
 
