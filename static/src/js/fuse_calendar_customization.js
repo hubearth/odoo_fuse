@@ -4,11 +4,21 @@ odoo.define('fuse_calendar_customization.base_calendar', function (require){
 	//var widgets = require('calendar.widgets');
 	var calendar = require('base_calendar.base_calendar');
 	
+	
 	//calendar.widgets.SidebarFilter._add_filter(-1, _lt("Everybody's calendars"), true, false);
-	calendar.widgets.SidebarFilter._add_filter(654, _lt("crotte de boeuf"), true, false);
+	//calendar.widgets.SidebarFilter._add_filter(654, _lt("crotte de boeuf"), true, false);
 	
 	// Extend widget
-	/*calendar.widgets.SidebarFilter.include({
+	calendar.widgets.SidebarFilter.extend({
+		set_default_everybodyscalendar: function (){
+			this._add_filter(654, _lt("crotte de boeuf"), true, false);
+			
+		},
+	
+
+	});
+
+		/*
 		load_favorite_list: function () {
 	        var self = this;
 	        // Untick sidebar's filters if there is an active partner in the context
@@ -33,9 +43,9 @@ odoo.define('fuse_calendar_customization.base_calendar', function (require){
 	                    self.render();
 	                });
 	        });
-		},
-	});*/
-
+		},*/
+	
+		
 	
 
 });
