@@ -12,7 +12,10 @@ odoo.define('fuse_calendar_customization.base_calendar', function (require){
 	calendar.widgets.SidebarFilter.include({
 		load_favorite_list: function () {
 			this._super();
-			this._add_filter(-1, _lt("Everybody's calendars"), false, false);
+			return session.is_bound.then(function() {
+				this._add_filter(-1, _lt("Everybody's calendars"), false, false);
+			});
+			
 		},
 		/*
 		set_default_everybodyscalendar: function (){
