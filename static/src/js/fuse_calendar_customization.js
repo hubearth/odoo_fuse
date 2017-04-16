@@ -1,7 +1,7 @@
 odoo.define('fuse_calendar_customization.everybodys_calendar', function (require){
 	"use strict";
 	// require original module JS
-	var widgets = require('calendar.widgets');
+	var widgets = require('base_calendar.widgets');
 	//var calendar = require('base_calendar.base_calendar');
 	
 	
