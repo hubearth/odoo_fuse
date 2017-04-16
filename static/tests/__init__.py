@@ -1,0 +1,1 @@
+import . from test_fuse_calendar_customization

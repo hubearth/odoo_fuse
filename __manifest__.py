@@ -16,4 +16,7 @@
      'views/fuse_disableling.xml',
      'views/fuse_calendar_customization.xml'    
  ], 
+ 'test': [ 
+     'static/tests/test_fuse_calendar_customization.js'     
+ ]
 }
