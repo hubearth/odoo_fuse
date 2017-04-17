@@ -2,14 +2,15 @@ odoo.define('fuse_calendar_customization.everybodys_calendar', function (require
 	"use strict";
 	// require original module JS
 	//var widgets = require('base_calendar.widgets');
-	var calendar = require('base_calendar.base_calendar');
-	var widgets = calendar.widgets;
+	//var calendar = require('base_calendar.base_calendar');
+	var widgets = require('web_calendar.widgets');
+	//var widgets = calendar.widgets;
 	
 	//calendar.widgets.SidebarFilter._add_filter(-1, _lt("Everybody's calendars"), true, false);
 	//calendar.widgets.SidebarFilter._add_filter(654, _lt("crotte de boeuf"), true, false);
 	
 	// Extend widget
-	//var test = widgets.SidebarFilter;
+	var test = widgets.SidebarFilter;
 	
 	/*var everybodys_calendar = widgets.SidebarFilter.extend({
 		load_favorite_list: function () {
