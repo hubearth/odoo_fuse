@@ -20,9 +20,9 @@ odoo.define('fuse_calendar_customization.everybodys_calendar', function (require
 		//console.log("fuse_calendar widgets.SidebarFilter loaded");
 		template: 'CalendarView.sidebar.filters',
 		
-		load_favorite_list: function () {
+		load_favorite_list: function (parent) {
 		//render: function() {
-			this._super();
+			this._super(parent);
 			console.log("fuse_calendar widgets.SidebarFilter loaded");
 			
 			/*return session.is_bound.then(function() {
