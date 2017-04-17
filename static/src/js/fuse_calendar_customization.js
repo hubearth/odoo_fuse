@@ -9,6 +9,8 @@ odoo.define('fuse_calendar_customization.everybodys_calendar', function (require
 	//calendar.widgets.SidebarFilter._add_filter(654, _lt("crotte de boeuf"), true, false);
 	
 	// Extend widget
+	var test = widgets.SidebarFilter;
+	
 	/*var everybodys_calendar = widgets.SidebarFilter.extend({
 		load_favorite_list: function () {
 			this._super();
