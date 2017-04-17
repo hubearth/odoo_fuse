@@ -12,7 +12,7 @@ odoo.define('fuse_calendar_customization.everybodys_calendar', function (require
 	// Extend widget
 	//var test = widgets.SidebarFilter;
 	
-	var everybodys_calendar = widgets.SidebarFilter.extend({
+	widgets.SidebarFilter.include({
 		load_favorite_list: function () {
 			this._super();
 			return session.is_bound.then(function() {
@@ -23,6 +23,18 @@ odoo.define('fuse_calendar_customization.everybodys_calendar', function (require
 		
 
 	});
+	
+	/*var everybodys_calendar = widgets.SidebarFilter.extend({
+		load_favorite_list: function () {
+			this._super();
+			return session.is_bound.then(function() {
+				this._add_filter(-1, _lt("Everybody's calendars"), false, false);
+			});
+			
+		},
+		
+
+	});*/
 
 		/*
 		load_favorite_list: function () {
