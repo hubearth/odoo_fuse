@@ -4,7 +4,7 @@ odoo.define('fuse_calendar_customization.everybodys_calendar', function (require
 	//var widgets = require('base_calendar.widgets');
 	var calendar = require('base_calendar.base_calendar');
 	//var widgets = require('web_calendar.widgets');
-	var widgets = calendar.get('widgets');
+	//var widgets = calendar.get('widgets');
 	//var widgets = calendar.widgets;
 	
 	//var widgets = instance.base_calendar
