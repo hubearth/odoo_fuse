@@ -2,8 +2,8 @@ odoo.define('fuse_calendar_customization.everybodys_calendar', function (require
 	"use strict";
 	// require original module JS
 	//var widgets = require('base_calendar.widgets');
-	var calendar = require('base_calendar.base_calendar');
-	//var widgets = require('web_calendar.widgets');
+	//var calendar = require('base_calendar.base_calendar');
+	var widgets = require('web_calendar.widgets');
 	//var widgets = calendar.get('widgets');
 	//var widgets = calendar.widgets;
 	
@@ -14,9 +14,9 @@ odoo.define('fuse_calendar_customization.everybodys_calendar', function (require
 	
 	console.log("fuse_calendar loaded:");
 	
-	for(var propName in calendar) {
+	for(var propName in widgets) {
 	    
-	    console.log(propName);
+	    console.log('fuse' + propName);
 	}
 	
 	// Extend widget
