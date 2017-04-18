@@ -12,7 +12,8 @@ odoo.define('fuse_calendar_customization.everybodys_calendar', function (require
 	//widgets.SidebarFilter._add_filter(-1, _lt("Everybody's calendars"), false, false);
 	//calendar.widgets.SidebarFilter._add_filter(654, _lt("crotte de boeuf"), true, false);
 	
-	console.log("fuse_calendar loaded");
+	console.log("fuse_calendar loaded:" + calendar);
+	
 	
 	// Extend widget
 	//var test = widgets.SidebarFilter;
