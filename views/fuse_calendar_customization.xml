@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="assets_backend" name="calendar assets" inherit_id="web.assets_backend">
+    <template id="assets_backend" name="calendar assets" inherit_id="assets_backend">
         <xpath expr="." position="before">
             <script type="text/javascript" src="/odoo_fuse/static/src/js/fuse_calendar_customization.js"></script>
         </xpath>
