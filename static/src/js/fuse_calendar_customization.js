@@ -14,7 +14,7 @@ odoo.define('fuse_calendar_customization.everybodys_calendar', function (require
 	
 	console.log("fuse_calendar loaded:");
 	
-	for(var propName in widgets) {
+	for(var propName in widgets.SidebarFilter) {
 	    
 	    console.log('fuse widgets: ' + propName);
 	}
