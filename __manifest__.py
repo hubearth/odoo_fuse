@@ -14,7 +14,7 @@
      'security/disableling_security.xml',
      'security/ir.model.access.csv',
      'views/fuse_disableling.xml',
-     'views/fuse_calendar_customization.xml'    
+     'views/fuse_calendar_customization_view.xml'    
  ], 
  'test': [ 
      'static/tests/test_fuse_calendar_customization.js'     
