@@ -45,8 +45,8 @@ odoo.define('fuse_calendar_customization.everybodys_calendar', function (require
 	    console.log('fuse calendar: ' + propName);
 	}
 	
-	console.log("fuse_calendar cal2: " + cal2);
-	console.log("fuse_calendar cal3: " + cal3);
+	//console.log("fuse_calendar cal2: " + cal2);
+	//console.log("fuse_calendar cal3: " + cal3);
 	
 	// Extend widget
 	//var test = widgets.SidebarFilter;
