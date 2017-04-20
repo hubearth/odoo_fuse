@@ -7,6 +7,9 @@ odoo.define('fuse_calendar_customization.everybodys_calendar', function (require
 	//var widgets = calendar.get('widgets');
 	//var widgets = calendar.widgets;
 	
+	var cal2 = instance.base_calendar;
+	var cal3 = instance.base_calendar.base_calendar;
+	
 	//var widgets = instance.base_calendar
 	
 	//widgets.SidebarFilter._add_filter(-1, _lt("Everybody's calendars"), false, false);
@@ -34,6 +37,9 @@ odoo.define('fuse_calendar_customization.everybodys_calendar', function (require
 	    
 	    console.log('fuse calendar: ' + propName);
 	}
+	
+	console.log("fuse_calendar cal2: " + cal2);
+	console.log("fuse_calendar cal3: " + cal3);
 	
 	// Extend widget
 	//var test = widgets.SidebarFilter;
