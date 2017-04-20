@@ -1,5 +1,5 @@
 //odoo.define('fuse_calendar_customization.everybodys_calendar', function (require){
-odoo.define('fuse_calendar_customization.everybodys_calendar', function (require, instance){
+odoo.define('fuse_calendar_customization.everybodys_calendar', function (require){
 	"use strict";
 
 //odoo.odoo_fuse = function(instance, local) {
@@ -10,8 +10,8 @@ odoo.define('fuse_calendar_customization.everybodys_calendar', function (require
 	//var widgets = calendar.get('widgets');
 	//var widgets = calendar.widgets;
 	
-	var cal2 = instance.base_calendar;
-	var cal3 = instance.base_calendar.base_calendar;
+	var cal2 = require('instance.base_calendar');
+	var cal3 = base_calendar.base_calendar;
 	
 	//var widgets = instance.base_calendar
 	
