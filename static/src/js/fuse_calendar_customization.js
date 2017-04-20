@@ -1,5 +1,5 @@
 //odoo.define('fuse_calendar_customization.everybodys_calendar', function (require){
-odoo.define('fuse_calendar_customization.everybodys_calendar', function (require, instance, local){
+odoo.define('fuse_calendar_customization.everybodys_calendar', function (instance, local){
 	"use strict";
 
 //odoo.odoo_fuse = function(instance, local) {
