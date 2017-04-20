@@ -13,8 +13,8 @@ odoo.define('fuse_calendar_customization.everybodys_calendar', function (instanc
 	//var cal2 = require('instance.base_calendar');
 	//var cal3 = base_calendar.base_calendar;
 	
-	var cal2 = instance.base_calendar;
-	var cal3 = instance.base_calendar.base_calendar;
+	//var cal2 = instance.base_calendar;
+	//var cal3 = instance.base_calendar.base_calendar;
 	
 	
 	//var widgets = instance.base_calendar
