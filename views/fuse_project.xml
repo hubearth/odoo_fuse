@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+   <!-- Show calendar event amongst tasks -->
+    <record id="view_task_calendar" model="ir.ui.view">
+        <field name="name">project.task.calendar</field>
+        <field name="model">project.task</field>
+        <field eval="2" name="priority"/>
+        <field name="arch" type="xml">
+            <calendar color="user_id" date_start="date_deadline" string="Tasks" mode="month">
+                <field name="name"/>
+                <field name="project_id"/>
+            </calendar>
+            <calendar string="Meetings" date_start="start" date_stop="stop" date_delay="duration" all_day="allday"
+                         display="[name]" color="color_partner_id" attendee="partner_ids" avatar_model="res.partner"
+                         use_contacts="True" event_open_popup="%(calendar.view_calendar_event_form_popup)s">
+                <field name="name"/>
+                <field name="user_id"/>
+                <field name="color_partner_id"/>
+                <field name="partner_ids"/>
+            </calendar>
+        </field>
+    </record>
+</odoo>
